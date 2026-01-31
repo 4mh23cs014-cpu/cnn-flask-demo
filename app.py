@@ -12,7 +12,7 @@ def abc():
 
 @app.route("/<name>")
 def greet_name(name):
-    return render_template("name.html", name=name, image=name+".png")
+    return render_template("name.html", name=name,image=name+".")
 
 
 if __name__ == "__main__":
